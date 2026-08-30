@@ -1,0 +1,9 @@
+path,speaker_id
+audio/dev/spk001_dev_01.wav,spk001
+audio/dev/spk001_dev_02.wav,spk001
+audio/dev/spk002_dev_01.wav,spk002
+audio/dev/spk002_dev_02.wav,spk002
+audio/dev/spk003_dev_01.wav,spk003
+audio/dev/spk003_dev_02.wav,spk003
+audio/dev/spk004_dev_01.wav,spk004
+audio/dev/spk004_dev_02.wav,spk004

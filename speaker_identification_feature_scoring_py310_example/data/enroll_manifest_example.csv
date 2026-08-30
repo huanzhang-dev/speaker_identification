@@ -1,0 +1,5 @@
+path,speaker_id
+audio/enroll_spk001_a.wav,spk001
+audio/enroll_spk001_b.wav,spk001
+audio/enroll_spk002_a.wav,spk002
+audio/enroll_spk002_b.wav,spk002
