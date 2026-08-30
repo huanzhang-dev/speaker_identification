@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speaker-identification-feature-scoring"
+version = "1.0.0"
+description = "Embedding-based deep speaker identification with feature-space scoring."
+requires-python = ">=3.10.2,<3.11"
+dependencies = [
+    "torch==2.2.2",
+    "torchaudio==2.2.2",
+    "soundfile==0.12.1",
+    "numpy==1.26.4",
+    "pandas==2.2.2",
+    "scikit-learn==1.5.1",
+    "matplotlib==3.8.4",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["speakerid*"]

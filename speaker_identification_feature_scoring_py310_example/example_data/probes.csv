@@ -1,0 +1,13 @@
+path,speaker_id,is_known
+audio/probe/spk001_probe_01.wav,spk001,1
+audio/probe/spk001_probe_02.wav,spk001,1
+audio/probe/spk002_probe_01.wav,spk002,1
+audio/probe/spk002_probe_02.wav,spk002,1
+audio/probe/spk003_probe_01.wav,spk003,1
+audio/probe/spk003_probe_02.wav,spk003,1
+audio/probe/spk004_probe_01.wav,spk004,1
+audio/probe/spk004_probe_02.wav,spk004,1
+audio/probe/unknown_a_probe_01.wav,unknown_a,0
+audio/probe/unknown_a_probe_02.wav,unknown_a,0
+audio/probe/unknown_b_probe_01.wav,unknown_b,0
+audio/probe/unknown_b_probe_02.wav,unknown_b,0

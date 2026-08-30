@@ -1,0 +1,40 @@
+{
+  "features": {
+    "sample_rate": 16000,
+    "n_mels": 80,
+    "n_fft": 512,
+    "win_length": 400,
+    "hop_length": 160,
+    "f_min": 20.0,
+    "f_max": 7600.0
+  },
+  "model": {
+    "n_mels": 80,
+    "channels": 512,
+    "scale": 8,
+    "se_bottleneck": 128,
+    "attention_channels": 128,
+    "embedding_dim": 192
+  },
+  "loss": {
+    "margin": 0.2,
+    "scale": 30.0
+  },
+  "training": {
+    "segment_seconds": 3.0,
+    "speakers_per_batch": 16,
+    "utterances_per_speaker": 2,
+    "eval_batch_size": 32,
+    "epochs": 40,
+    "encoder_lr": 0.0005,
+    "head_lr": 0.001,
+    "weight_decay": 0.0001,
+    "grad_clip": 5.0,
+    "num_workers": 4,
+    "noise_probability": 0.35,
+    "gain_probability": 0.35,
+    "freq_mask": 8,
+    "time_mask": 20,
+    "seed": 42
+  }
+}

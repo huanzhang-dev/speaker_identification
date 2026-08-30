@@ -1,0 +1,5 @@
+path,speaker_id,is_known
+audio/probe_spk001.wav,spk001,1
+audio/probe_spk002.wav,spk002,1
+audio/probe_unknown_001.wav,unknown_a,0
+audio/probe_unknown_002.wav,unknown_b,0
